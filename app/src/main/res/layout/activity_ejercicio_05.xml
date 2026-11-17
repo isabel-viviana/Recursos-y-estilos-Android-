@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Dark Blue Top Bar -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#3F51B5" />
+
+    <!-- Center Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- "Home" Heading -->
+        <TextView
+            android:id="@+id/tvHomeHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej05_home_heading"
+            android:textSize="36sp"
+            android:textColor="#3F51B5"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/btnNavDest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej05_nav_dest"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/btnNavAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej05_nav_action"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnBackMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_back_to_menu"
+            android:backgroundTint="#757575" />
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation Bar Item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_home"
+            app:tint="#3F51B5"
+            android:contentDescription="@string/ej05_bottom_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ej05_bottom_home"
+            android:textColor="#3F51B5"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+</LinearLayout>

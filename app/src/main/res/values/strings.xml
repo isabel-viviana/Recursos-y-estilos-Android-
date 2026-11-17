@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recursos y Estilos</string>
+    <string name="menu_title">TALLER ANDROID – RECURSOS Y ESTILOS</string>
+    <string name="menu_subtitle">Selecciona el ejercicio que deseas visualizar</string>
+    <string name="btn_back_to_menu">Volver al menú</string>
+
+    <!-- Botones del Menú Principal -->
+    <string name="btn_ejercicio_01">Ejercicio 1 – Landscape design</string>
+    <string name="btn_ejercicio_02">Ejercicio 2 – SeekBarChangeListener</string>
+    <string name="btn_ejercicio_03">Ejercicio 3 – Buttons</string>
+    <string name="btn_ejercicio_04">Ejercicio 4 – Two Activities</string>
+    <string name="btn_ejercicio_05">Ejercicio 5 – Home</string>
+    <string name="btn_ejercicio_06">Ejercicio 6 – Radio Button Tutorial</string>
+    <string name="btn_ejercicio_07">Ejercicio 7 – RoomDemo</string>
+    <string name="btn_ejercicio_08">Ejercicio 8 – CardView App</string>
+    <string name="btn_ejercicio_09">Ejercicio 9 – Cuadrícula de botones</string>
+    <string name="btn_ejercicio_10">Ejercicio 10 – Contador de clics</string>
+    <string name="btn_ejercicio_11">Ejercicio 11 – CheckBox</string>
+    <string name="btn_ejercicio_12">Ejercicio 12 – Calculadora básica</string>
+    <string name="btn_ejercicio_13">Ejercicio 13 – Cambiar colores</string>
+    <string name="btn_ejercicio_14">Ejercicio 14 – Encuesta</string>
+    <string name="btn_ejercicio_15">Ejercicio 15 – ViewPager2 vertical</string>
+    <string name="btn_ejercicio_16">Ejercicio 16 – ViewPager2 con imágenes</string>
+    <string name="btn_ejercicio_17">Ejercicio 17 – Theming Material Buttons</string>
+
+    <!-- Ejercicio 01 -->
+    <string name="ej01_title">Landscape design</string>
+    <string name="ej01_geeks">GeeksforGeeks</string>
+    <string name="ej01_name_label">Name:</string>
+    <string name="ej01_name_hint">Introduce tu nombre</string>
+    <string name="ej01_button1">BUTTON 1</string>
+    <string name="ej01_button2">BUTTON 2</string>
+    <string name="ej01_button3">BUTTON 3</string>
+
+    <!-- Ejercicio 02 -->
+    <string name="ej02_title">SeekBarChangeListener</string>
+    <string name="ej02_price_prefix">Price: </string>
+    <string name="ej02_val_prefix">Valor del SeekBar: </string>
+
+    <!-- Ejercicio 03 -->
+    <string name="ej03_title">Buttons</string>
+    <string name="ej03_raised_section">Raised Button</string>
+    <string name="ej03_flat_section">Flat Button</string>
+    <string name="ej03_btn_normal">NORMAL</string>
+    <string name="ej03_btn_pressed">PRESSED</string>
+    <string name="ej03_btn_disabled">DISABLED</string>
+
+    <!-- Ejercicio 04 -->
+    <string name="ej04_title">Two Activities</string>
+    <string name="ej04_reply_received">Reply Received</string>
+    <string name="ej04_default_reply">This is my reply</string>
+    <string name="ej04_enter_message">Enter Your Message</string>
+    <string name="ej04_send">SEND</string>
+    <string name="ej04_reply_title">Reply Activity</string>
+    <string name="ej04_enter_reply">Enter Your Reply</string>
+    <string name="ej04_send_reply">REPLY</string>
+
+    <!-- Ejercicio 05 -->
+    <string name="ej05_title">Home</string>
+    <string name="ej05_home_heading">Inicio</string>
+    <string name="ej05_nav_dest">NAVEGAR A DESTINO</string>
+    <string name="ej05_nav_action">NAVEGAR CON ACCIÓN</string>
+    <string name="ej05_bottom_home">Inicio</string>
+
+    <!-- Ejercicio 06 -->
+    <string name="ej06_title">Radio Button Tutorial</string>
+    <string name="ej06_question">¿Cuál es la montaña más alta del mundo?</string>
+    <string name="ej06_opt_matterhorn">Matterhorn</string>
+    <string name="ej06_opt_olympus">Monte Olimpo</string>
+    <string name="ej06_opt_everest">Monte Everest</string>
+    <string name="ej06_opt_fuji">Monte Fuji</string>
+    <string name="ej06_submit">SUBMIT ANSWER</string>
+    <string name="ej06_correct">¡Correcto! El Monte Everest es la montaña más alta.</string>
+    <string name="ej06_incorrect">Incorrecto. Intenta de nuevo.</string>
+    <string name="ej06_select_option">Por favor selecciona una opción.</string>
+
+    <!-- Ejercicio 07 -->
+    <string name="ej07_title">RoomDemo</string>
+    <string name="ej07_product_id">Product ID</string>
+    <string name="ej07_product_name">Product Name</string>
+    <string name="ej07_product_qty">Product Quantity</string>
+    <string name="ej07_add">ADD</string>
+    <string name="ej07_delete">DELETE</string>
+    <string name="ej07_find">FIND</string>
+
+    <!-- Ejercicio 08 -->
+    <string name="ej08_title">CardView App</string>
+    <string name="ej08_call">Call</string>
+    <string name="ej08_chat">Chat</string>
+    <string name="ej08_comment">Comment</string>
+    <string name="ej08_duo">Duo</string>
+
+    <!-- Ejercicio 09 -->
+    <string name="ej09_title">Cuadrícula de botones</string>
+    <string name="ej09_people">Personas</string>
+    <string name="ej09_cart">Carrito</string>
+    <string name="ej09_savings">Ahorros</string>
+    <string name="ej09_calendar">Calendario</string>
+    <string name="ej09_notes">Notas</string>
+    <string name="ej09_tools">Herramientas</string>
+
+    <!-- Ejercicio 10 -->
+    <string name="ej10_title">Contador de clics</string>
+    <string name="ej10_click_me">Púlsame</string>
+
+    <!-- Ejercicio 11 -->
+    <string name="ej11_title">Activar/Desactivar CheckBox</string>
+    <string name="ej11_toggle">Cambiar estado del CheckBox</string>
+    <string name="ej11_checkbox_label">Estado del CheckBox</string>
+
+    <!-- Ejercicio 12 -->
+    <string name="ej12_title">Calculadora básica</string>
+
+    <!-- Ejercicio 13 -->
+    <string name="ej13_title">Cambiar color de fondo dinámicamente</string>
+    <string name="ej13_red">Rojo</string>
+    <string name="ej13_green">Verde</string>
+    <string name="ej13_blue">Azul</string>
+    <string name="ej13_random">Aleatorio</string>
+
+    <!-- Ejercicio 14 -->
+    <string name="ej14_title">Encuesta interactiva</string>
+    <string name="ej14_question">¿Cuál es tu lenguaje de programación favorito?</string>
+    <string name="ej14_opt1">Kotlin</string>
+    <string name="ej14_opt2">Java</string>
+    <string name="ej14_opt3">Python</string>
+    <string name="ej14_opt4">C++</string>
+    <string name="ej14_submit">Enviar</string>
+    <string name="ej14_warn">Por favor selecciona una respuesta.</string>
+
+    <!-- Ejercicio 15 -->
+    <string name="ej15_title">ViewPager2 vertical</string>
+    <string name="ej15_page1">Página 1 (Rojo)</string>
+    <string name="ej15_page2">Página 2 (Verde)</string>
+    <string name="ej15_page3">Página 3 (Azul)</string>
+
+    <!-- Ejercicio 16 -->
+    <string name="ej16_title">ViewPager2 con imágenes</string>
+    <string name="ej16_img1">Imagen 1</string>
+    <string name="ej16_img2">Imagen 2</string>
+    <string name="ej16_img3">Imagen 3</string>
+
+    <!-- Ejercicio 17 -->
+    <string name="ej17_title">Theming Material Design Buttons</string>
+    <string name="ej17_contained">Contained Button</string>
+    <string name="ej17_outlined">Outlined Button</string>
+    <string name="ej17_text_btn">TEXT BUTTON</string>
+</resources>

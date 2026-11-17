@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej14_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej14_question"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rgSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <RadioButton
+            android:id="@+id/rbKotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej14_opt1"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rbJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej14_opt2"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rbPython"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej14_opt3"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rbCpp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej14_opt4"
+            android:textSize="16sp"
+            android:padding="8dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmitSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej14_submit"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnBackMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back_to_menu"
+        android:backgroundTint="#757575" />
+
+</LinearLayout>

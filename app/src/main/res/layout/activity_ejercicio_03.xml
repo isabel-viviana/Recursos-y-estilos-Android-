@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Section Raised Button -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_raised_section"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnRaisedNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_btn_normal"
+        android:background="@drawable/boton_selector"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnRaisedPressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_btn_pressed"
+        android:background="@drawable/boton_pulsado"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnRaisedDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_btn_disabled"
+        android:background="@drawable/boton_disabled"
+        android:textColor="#FFFFFF"
+        android:enabled="false"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Section Flat Button -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_flat_section"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnFlatNormal"
+        style="@style/EstiloBotonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_btn_normal"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnFlatPressed"
+        style="@style/EstiloBotonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_btn_pressed"
+        android:textColor="#0D47A1"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnFlatDisabled"
+        style="@style/EstiloBotonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ej03_btn_disabled"
+        android:enabled="false"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnBackMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back_to_menu"
+        android:backgroundTint="#757575" />
+
+</LinearLayout>

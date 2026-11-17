@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ejercicio 03 (English) -->
+    <string name="ej03_title">Buttons</string>
+    <string name="ej03_raised_section">Raised Button</string>
+    <string name="ej03_flat_section">Flat Button</string>
+    <string name="ej03_btn_normal">NORMAL</string>
+    <string name="ej03_btn_pressed">PRESSED</string>
+    <string name="ej03_btn_disabled">DISABLED</string>
+
+    <!-- Ejercicio 04 (English) -->
+    <string name="ej04_title">Two Activities</string>
+    <string name="ej04_reply_received">Reply Received</string>
+    <string name="ej04_default_reply">This is my reply</string>
+    <string name="ej04_enter_message">Enter Your Message</string>
+    <string name="ej04_send">SEND</string>
+    <string name="ej04_reply_title">Reply Activity</string>
+    <string name="ej04_enter_reply">Enter Your Reply</string>
+    <string name="ej04_send_reply">REPLY</string>
+
+    <!-- Ejercicio 05 (English) -->
+    <string name="ej05_title">Home</string>
+    <string name="ej05_home_heading">Home</string>
+    <string name="ej05_nav_dest">NAVIGATE TO DESTINATION</string>
+    <string name="ej05_nav_action">NAVIGATE WITH ACTION</string>
+    <string name="ej05_bottom_home">Home</string>
+
+    <!-- Ejercicio 06 (English) -->
+    <string name="ej06_title">Radio Button Tutorial</string>
+    <string name="ej06_question">What is the world\'s highest mountain?</string>
+    <string name="ej06_opt_matterhorn">Matterhorn</string>
+    <string name="ej06_opt_olympus">Mount Olympus</string>
+    <string name="ej06_opt_everest">Mount Everest</string>
+    <string name="ej06_opt_fuji">Mount Fuji</string>
+    <string name="ej06_submit">SUBMIT ANSWER</string>
+    <string name="ej06_correct">Correct! Mount Everest is the highest mountain.</string>
+    <string name="ej06_incorrect">Incorrect. Try again.</string>
+    <string name="ej06_select_option">Please select an option.</string>
+
+    <!-- Ejercicio 07 (English) -->
+    <string name="ej07_title">RoomDemo</string>
+    <string name="ej07_product_id">Product ID</string>
+    <string name="ej07_product_name">Product Name</string>
+    <string name="ej07_product_qty">Product Quantity</string>
+    <string name="ej07_add">ADD</string>
+    <string name="ej07_delete">DELETE</string>
+    <string name="ej07_find">FIND</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Teal Header Bar -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#00796B"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/ej06_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej06_question"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/rgMountains"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/rbMatterhorn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ej06_opt_matterhorn"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+
+            <RadioButton
+                android:id="@+id/rbOlympus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ej06_opt_olympus"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+
+            <RadioButton
+                android:id="@+id/rbEverest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ej06_opt_everest"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+
+            <RadioButton
+                android:id="@+id/rbFuji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ej06_opt_fuji"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmitAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ej06_submit"
+            android:backgroundTint="#E0E0E0"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnBackMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_back_to_menu"
+            android:backgroundTint="#757575" />
+    </LinearLayout>
+
+</LinearLayout>

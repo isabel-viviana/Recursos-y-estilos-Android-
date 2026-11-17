@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ejercicio 03 (French) -->
+    <string name="ej03_title">Boutons</string>
+    <string name="ej03_raised_section">Bouton surélevé</string>
+    <string name="ej03_flat_section">Bouton plat</string>
+    <string name="ej03_btn_normal">NORMAL</string>
+    <string name="ej03_btn_pressed">PRESSÉ</string>
+    <string name="ej03_btn_disabled">DÉSACTIVÉ</string>
+
+    <!-- Ejercicio 04 (French) -->
+    <string name="ej04_title">Deux activités</string>
+    <string name="ej04_reply_received">Réponse reçue</string>
+    <string name="ej04_default_reply">Ceci est ma réponse</string>
+    <string name="ej04_enter_message">Entrez votre message</string>
+    <string name="ej04_send">ENVOYER</string>
+    <string name="ej04_reply_title">Activité de réponse</string>
+    <string name="ej04_enter_reply">Entrez votre réponse</string>
+    <string name="ej04_send_reply">RÉPONDRE</string>
+
+    <!-- Ejercicio 05 (French) -->
+    <string name="ej05_title">Accueil</string>
+    <string name="ej05_home_heading">Accueil</string>
+    <string name="ej05_nav_dest">NAVIGUER VERS LA DESTINATION</string>
+    <string name="ej05_nav_action">NAVIGUER AVEC ACTION</string>
+    <string name="ej05_bottom_home">Accueil</string>
+
+    <!-- Ejercicio 06 (French) -->
+    <string name="ej06_title">Tutoriel Bouton Radio</string>
+    <string name="ej06_question">Quelle est la plus haute montagne du monde ?</string>
+    <string name="ej06_opt_matterhorn">Matterhorn</string>
+    <string name="ej06_opt_olympus">Mont Olympe</string>
+    <string name="ej06_opt_everest">Mont Everest</string>
+    <string name="ej06_opt_fuji">Mont Fuji</string>
+    <string name="ej06_submit">SOUMETTRE LA RÉPONSE</string>
+    <string name="ej06_correct">Correct ! Le mont Everest est la plus haute montagne.</string>
+    <string name="ej06_incorrect">Incorrect. Réessayez.</string>
+    <string name="ej06_select_option">Veuillez sélectionner une option.</string>
+
+    <!-- Ejercicio 07 (French) -->
+    <string name="ej07_title">RoomDemo</string>
+    <string name="ej07_product_id">ID Produit</string>
+    <string name="ej07_product_name">Nom du Produit</string>
+    <string name="ej07_product_qty">Quantité de Produit</string>
+    <string name="ej07_add">AJOUTER</string>
+    <string name="ej07_delete">SUPPRIMER</string>
+    <string name="ej07_find">RECHERCHER</string>
+</resources>
